@@ -17,8 +17,8 @@ function Main() {
             <a href="https://github.com/haihd" target="_blank" rel="noreferrer"><GitHubIcon/></a>
             <a href="https://www.linkedin.com/in/haihd/" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
           </div>
-          <h1>Dustin Dev</h1>
-          <p>Full Stack Engineer</p>
+          <h1>Hai Ha Dai (Dustin)</h1>
+          <p>Full Stack Software Engineer</p>
 
           <div className="mobile_social_icons">
             <a href="https://github.com/haihd" target="_blank" rel="noreferrer"><GitHubIcon/></a>
