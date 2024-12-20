@@ -1,19 +1,19 @@
 import React from "react";
 import '@fortawesome/free-regular-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faReact, faDocker, faPython } from '@fortawesome/free-brands-svg-icons';
+import { faVuejs, faDocker, faPython } from '@fortawesome/free-brands-svg-icons';
 import Chip from '@mui/material/Chip';
 import '../assets/styles/Expertise.scss';
 
 const labelsFirst = [
-    "React",
-    "TypeScript",
+    "VueJS",
     "JavaScript",
-    "HTML5",
-    "CSS3",
-    "SASS",
-    "Flask",
+    "HTML",
+    "CSS",
+    "Java",
+    "J2EE",
     "Python",
+    "Django",
     "SQL",
     "PostgreSQL",
     "Postman"
@@ -21,24 +21,21 @@ const labelsFirst = [
 
 const labelsSecond = [
     "Git",
-    "GitHub Actions",
+    "GitLab",
     "Docker",
-    "AWS",
+    "DigitalOcean",
     "Azure",
     "Linux",
-    "Snowflake",
-    "Pandas",
-    "Selenium",
+    "WildFly",
 ];
 
 const labelsThird = [
     "OpenAI",
-    "Groq",
     "LangChain",
-    "Qdrant",
+    "Ollama",
     "Hugging Face",
-    "LlamaIndex",
     "Streamlit",
+    "Azure AI",
 ];
 
 function Expertise() {
@@ -48,7 +45,7 @@ function Expertise() {
             <h1>Expertise</h1>
             <div className="skills-grid">
                 <div className="skill">
-                    <FontAwesomeIcon icon={faReact} size="3x"/>
+                    <FontAwesomeIcon icon={faVuejs} size="3x"/>
                     <h3>Full Stack Web Development</h3>
                     <p>I have built a diverse array of web applications from scratch using modern technologies such as React and Flask. I have a strong proficiency in the SDLC process and frontend + backend development.</p>
                     <div className="flex-chips">
@@ -61,7 +58,7 @@ function Expertise() {
 
                 <div className="skill">
                     <FontAwesomeIcon icon={faDocker} size="3x"/>
-                    <h3>DevOps & Automation</h3>
+                    <h3>DevOps & MLOps</h3>
                     <p>Once the application is built, I help clients set up DevOps testing, CI/CD pipelines, and deployment automation to support the successful Go-Live.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
